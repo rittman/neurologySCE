@@ -1,0 +1,63 @@
+body {
+	background-color: #f0eceb;
+}
+
+h1, h2, h3 {
+	color: #f0eceb;
+	font-family: "Verdana", Geneva, sans-serif;
+}
+
+h2, h3 {
+	color: #aa863a;
+}
+
+p {
+	color: #283018;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20px
+}
+
+a.nav {
+	text-decoration: none;
+	color: #f0eceb;
+	font-family: "Verdana", Geneva, sans-serif;
+	font-size: 14px;
+}
+
+p.nav {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+.answer {
+	color: #729f98;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#header {
+	background-color:#729f98;
+	text-align:center;
+	padding:5px;
+}
+
+#nav {
+	line-height:30px;
+	background-color:#729f98;
+	height:1600px;
+	width:250px;
+	float:left;
+	padding-left: 10px;
+	padding-right:5px;
+}
+
+#section {
+	width:450px;
+	float:left;
+	padding:10px;
+}
+
+
