@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+    <meta charset="UTF-8">
+    <title>Disorders of consciousness and epilepsy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div id=header>
+    <h1>Disorders of consciousness and epilepsy</h1>
+</div>
+
+<div id=nav>
+  <p class="nav"><a href="index.html" class="nav">Homepage</a></p>
+
+  <p class="nav"><a href="cerebrovascular.html" class="nav">Cerebrovascular</a></p>
+
+  <p class="nav"><a href="epilepsyConsciousness.html" class="nav">Disorders of consciousness and epilepsy</a></p>
+
+  <p class="nav"><a href="#" class="nav">Disorders of the cranial nerves and visual system </a></p>
+
+  <p class="nav"><a href="#" class="nav">Disorders of the peripheral nervous system and muscle </a></p>
+
+  <p class="nav"><a href="#" class="nav">Disorders of the spinal cord and motor neurone disease </a></p>
+
+  <p class="nav"><a href="#" class="nav">Neurogenetics, neuroendocrinology, neurotoxicology,</a></p>
+
+  <p class="nav"><a href="#" class="nav">neurourology, neuro-otology</a></p>
+
+  <p class="nav"><a href="#" class="nav">Neuro-inflammatory disorders </a></p>
+
+  <p class="nav"><a href="#" class="nav">Neurological disorders in special groups (e.g. elderly, children, pregnancy, end of life) </a></p>
+
+  <p class="nav"><a href="#" class="nav">Neurophysiology, neuroradiology, neuropathology </a></p>
+
+  <p class="nav"><a href="#" class="nav">Neurorehabilitiation, neuropsychology and neuropsychiatry</a></p>
+
+  <p class="nav"><a href="#" class="nav">Neurosurgery and intensive care </a></p>
+
+  <p class="nav"><a href="#" class="nav">Pain and headache </a></p>
+
+  <p class="nav"><a href="#" class="nav">Parkinsonism and movement disorder</a></p>
+
+</div>
+
+<div id="section">
+
+   <script>
+   function changeAnswer(theAnswer, answerID) {
+      var ans = document.getElementById(answerID).innerHTML;
+      if(ans.trim().length==0){
+         ans = theAnswer;
+      } else {
+         ans = "";
+      }
+
+      document.getElementById(answerID).innerHTML = ans;
+   }
+   </script>
+<h2>Disorders of Epilepsy and Consciousness</h2>
+
+  <!-- Question 1 -->
+  <p>Name the sodium channel blocking anti-epileptics</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="1"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Phenytoin, carbamazepine, oxcarbazepine, eslicarbazepine, lamotrigine, lacosamide, zonisamide, topiramate', '1')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 2 -->
+  <p>On what channels do the following drugs act: gabapentin (and pregablin), tiagabine, benzodiazepines, perampanel, retigabine, ethosuximide</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="2"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Gabapentin/pregabalin: presynaptic &alpha;<sub>2</sub>&delta;-subunit of Ca<sup>2+</sup> channel<br>tiagabine: presynaptic GAT-1<br>Benzodiazepines: post-synaptic GABA<br>Perampanel: post-synaptic AMPA<br>Retigabine: post-synpatic KCNQ K<sup>+</sup> channel<br>Ethosuximide: post-synaptic T-type Ca<sup>2+</sup> channel', '2')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 3 -->
+  <p>Which drugs can exacerbate myoclonus and absences in juvenile myoclonic/absence epilepsy?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="3"><p>
+
+  <button type="button"
+   onclick="changeAnswer('Phenytoin, carbamazepine, oxcarbazepine, vigabtrin, gabapentin.','3')">
+   Click for answer</button>
+  <hr>
+
+
+
+</div>
+
+</body>
+
+</html>

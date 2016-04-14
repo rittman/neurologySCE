@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<meta charset="UTF-8">
+    <title>Cerebrovascular disease</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div id=header>
+    <h1>Cerebrovascular disease</h1>
+</div>
+
+<div id=nav>
+  <p class="nav"><a href="index.html" class="nav">Homepage</a></p>
+
+  <p class="nav"><a href="cerebrovascular.html" class="nav">Cerebrovascular</a></p>
+
+  <p class="nav"><a href="epilepsyConsciousness.html" class="nav">Disorders of consciousness and epilepsy</a></p>
+
+  <p class="nav"><a href="#" class="nav">Disorders of the cranial nerves and visual system </a></p>
+
+  <p class="nav"><a href="#" class="nav">Disorders of the peripheral nervous system and muscle </a></p>
+
+  <p class="nav"><a href="#" class="nav">Disorders of the spinal cord and motor neurone disease </a></p>
+
+  <p class="nav"><a href="#" class="nav">Neurogenetics, neuroendocrinology, neurotoxicology,</a></p>
+
+  <p class="nav"><a href="#" class="nav">neurourology, neuro-otology</a></p>
+
+  <p class="nav"><a href="#" class="nav">Neuro-inflammatory disorders </a></p>
+
+  <p class="nav"><a href="#" class="nav">Neurological disorders in special groups (e.g. elderly, children, pregnancy, end of life) </a></p>
+
+  <p class="nav"><a href="#" class="nav">Neurophysiology, neuroradiology, neuropathology </a></p>
+
+  <p class="nav"><a href="#" class="nav">Neurorehabilitiation, neuropsychology and neuropsychiatry</a></p>
+
+  <p class="nav"><a href="#" class="nav">Neurosurgery and intensive care </a></p>
+
+  <p class="nav"><a href="#" class="nav">Pain and headache </a></p>
+
+  <p class="nav"><a href="#" class="nav">Parkinsonism and movement disorder</a></p>
+
+</div>
+
+<div id="section">
+
+   <script>
+   function changeAnswer(theAnswer, answerID) {
+      var ans = document.getElementById(answerID).innerHTML;
+      if(ans.trim().length==0){
+         ans = theAnswer;
+      } else {
+         ans = "";
+      }
+
+      document.getElementById(answerID).innerHTML = ans;
+   }
+   </script>
+
+  <h2 id="cerebrovascular">Cerebrovascular</h2>
+  
+  <!-- Question 1 -->
+  <p>Which mutation is most commonly associated with CARASIL?</p>
+
+  <input type="text"><br>
+
+  <p id="1"></p>
+
+  <button type="button"
+   onclick="changeAnswer('HTRA1', '1')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 2 -->
+  <p>What is the pattern of a LACS syndrome?</p>
+
+  <textarea style="height:100px; width:400px;"></textarea><br>
+
+  <p id="2"></p>
+
+  <button type="button"
+   onclick="changeAnswer('1. No visual field defect<br>2. no new disturbance of higher cortical or brainstem function<br>3. pure motor hemiparesis, pure sensory deficit or sensory-motor hemiparesis or ipsilateral ataxia with crural hemiparesis,<br>4. At least two of face/arm/leg involved in its entirety', '2')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 3 -->
+  <p>What does a POCS syndrome consist of?</p>
+
+  <textarea style="height:100px; width:400px;"></textarea><br>
+
+  <p id="3"></p>
+
+  <button type="button"
+   onclick="changeAnswer('1. Cranial nerve impairment,<br>2. unilateral or bilateral motor or sensory deficit,<br>3. disorder of conjugate eye movement,<br>4. cerebellar dysfunction,<br>5. homonymous hemianopia,<br>6. cortical blindness', '3')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 4 -->
+  <p>What does a TACS syndrome consist of?</p>
+
+  <textarea style="height:100px; width:400px;"></textarea><br>
+
+  <p id="4"></p>
+
+  <button type="button"
+   onclick="changeAnswer('1. hemiplegia and homonymous hemianopia contralateral to the lesion, and,<br>2. either aphasia or visuospatial disturbance,<br>3. &plusmn; sensory deficit contralateral to the lesion', '4')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 5 -->
+  <p>What does a PACS syndrome consist of?</p>
+
+  <textarea style="height:100px; width:400px;"></textarea><br>
+
+  <p id="5"></p>
+
+  <button type="button"
+   onclick="changeAnswer('1. One or more of unilateral motor or sensory deficit, aphasia or visuospatial neglect (combined or not with homonymous hemianopia),<br>2. motor or sensory deficit may be less extensive than in lacunar syndromes (for example hand alone).', '5')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 6 -->
+
+  <p>What are the components of the ABCD2 score?</p>
+
+  <textarea style="height:100px; width:400px;"></textarea><br>
+
+  <p id="6"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Age &gt;&equals;60<br>BP&gt;&equals;140&sol;90<br>Clinical features: unilateral weakness (2), speech disturbance only (1)<br>Duration of symptoms &gt;&equals;60 min (2), 10-59 min (1), <10 min (0)<br>Diabetes', '6')">
+   Click for answer</button>
+  <hr>
+
+
+  <!-- Question 7 -->
+
+  <p>What are the 2 day risks for the ABCD2 scores?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="7"></p>
+
+  <button type="button"
+   onclick="changeAnswer('0-3 1&percnt;, 4-5 4&percnt;, 6-7 8&percnt;', '7')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 8 -->
+
+  <p>Which was the first study of t-PA thrombolysis for stroke on which the FDA based their decision to approve thrombolysis?</p>
+
+  <input type="text"><br>
+
+  <p id="8"></p>
+
+  <button type="button"
+   onclick="changeAnswer('The National Institute of Neurological Disorders (NINDS) Stroke rt-PA Stroke Study group, NEJM 1995, Tissue Plasminogen activator for acute ischaemic stroke', '8')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 9 -->
+  <p>In what proportion of patients was there a favourable outcome in this study?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="9"></p>
+
+  <button type="button"
+   onclick="changeAnswer('31-50&percnt; in the rtPA group and 20-38&percnt; in the placebo group.', '9')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 10 -->
+  <p>What were the main outcomes of the IST-3 trial?</p>
+
+  <textarea style="height:100px; width:400px;"></textarea><br>
+
+  <p id="10"></p>
+
+  <button type="button"
+   onclick="changeAnswer('1. 37&percnt; in the rti-PA vs 35&percnt; in the control group were alive and independent with a shift to better outcome in the treatment group odds ratio 1.13.<br>2. 7&percnt; vs 1&percnt; in haemorrhage<br>3. These findings were for thrombolysis up to 6 hours.', '10')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 11 -->
+  <p>What were the main outcomes of the ECASS-3 trial?</p>
+
+  <textarea style="height:100px; width:400px;"></textarea><br>
+
+  <p id="11"></p>
+
+  <button type="button"
+   onclick="changeAnswer('1. Better outcome with alteplase (52.4 &percnt;) vs placebo (45.2&percnt;) odds ratio 1.34<br>2. Symptomatic intracranial haemorrhage 2.4&percnt; vs 0.2&percnt;<br>3. These findings were for 3-4.5 hours.', '11')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 12 -->
+  <p>What areas of the brain are at risk in "top of the basilar" infarction?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="12"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Midbrain, thalamus, portions of the temporal and occipital lobes supplied by the posterior communicating and posterior cerebral artery tributaries of the basilar artery', '12')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 13 -->
+  <p>What eye movement abnormalties are associated with "top of the basilar" syndrome?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="13"></p>
+
+  <button type="button"
+   onclick="changeAnswer('1. Restricted vertical gaze<br>2. Hyperconvergence, convergency spasm or convergence retraction nystagmus<br>3. Pseudosixth<br>4. lightning-light oscillations on horizontal or vertical gaze<br>5. Skew deviation<br>6. third nerve palsy<br>', '13')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 14 -->
+  <p>What are the cognitive abnormalities associated with the "top of the basilar" syndrome?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="14"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Somnolence, peduncular hallucinosis, alexia without agraphia, unusal reports (bizarre answers, particularly of orientation)', '14')">
+   Click for answer</button>
+  <hr>
+
+
+  <!-- Question 15 -->
+  <p>What are the major functional classes of thalamic nuclei?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="15"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Reticular and intralaminar nuclei, sensory nuclei, effector nuclei, associative nuclei, limbic nuclei', '15')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 16 -->
+  <p>What are the main thalamic ischaemic syndromes?</p>
+
+  <textarea style="height:100px; width:400px;"></textarea><br>
+
+  <p id="16"></p>
+
+  <button type="button"
+   onclick="changeAnswer('1. tuberothalamic territory, impairments of arounsal, orientation, learning, memory, personality and excecutive function<br>2. paramedian infarcts, reduced arousal, learning and memory<br>3. Inferolateral territory, contralateral hemisensory loss, hemiparesis and hemiataxia, pain syndromes (right)<br>4. Posterior choroidal, visual field defects, sensory loss, weakness, dystonia, tremors, amnesia and language impairment', '16')">
+   Click for answer</button>
+  <hr>
+
+
+</div>
+
+</body>
+
+</html>
+
