@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+  <meta charset="UTF-8">
+  <title>Neuroinflammatory disorders</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div id=header>
+  <h1>Neuroinflammatory disorders</h1>
+</div>
+
+<div id=nav>
+  <p class="nav"><a href="cerebrovascular.html" class="nav">Cerebrovascular</a><p>
+
+  <p class="nav"><a href="epilepsyConsciousness.html" class="nav">Disorders of consciousness and epilepsy</a></p>
+
+  <p class="nav"><a href="cnVision.html" class="nav">Disorders of the cranial nerves and visual system </a><p>
+
+  <p class="nav"><a href="#" class="nav">Disorders of the peripheral nervous system and muscle </a><p>
+
+  <p class="nav"><a href="#" class="nav">Disorders of the spinal cord and motor neurone disease </a><p>
+
+  <p class="nav"><a href="#" class="nav">Neurogenetics, neuroendocrinology, neurotoxicology,</a><p>
+
+  <p class="nav"><a href="#" class="nav">neurourology, neuro-otology</a><p>
+
+  <p class="nav"><a href="#" class="nav">Neuro-inflammatory disorders </a><p>
+
+  <p class="nav"><a href="#" class="nav">Neurological disorders in special groups (e.g. elderly, children, pregnancy, end of life) </a><p>
+
+  <p class="nav"><a href="#" class="nav">Neurophysiology, neuroradiology, neuropathology </a><p>
+
+  <p class="nav"><a href="#" class="nav">Neurorehabilitiation, neuropsychology and neuropsychiatry</a><p>
+
+  <p class="nav"><a href="#" class="nav">Neurosurgery and intensive care </a><p>
+
+  <p class="nav"><a href="#" class="nav">Pain and headache </a><p>
+
+  <p class="nav"><a href="#" class="nav">Parkinsonism and movement disorder</a><p>
+
+</div>
+
+<div id="section">
+   <script>
+   function changeAnswer(theAnswer, answerID) {
+      var ans = document.getElementById(answerID).innerHTML;
+      if(ans.trim().length==0){
+         ans = theAnswer;
+      } else {
+         ans = "";
+      }
+
+      document.getElementById(answerID).innerHTML = ans;
+   }
+   </script>
+
+   <script type="text/javascript">
+     $(document).ready(function() {
+       $('#btnHide').click(function() {
+         $('td:nth-child(2),th:nth-child(2)').hide();
+       });
+      });
+    </script>
+
+
+  <h2>"Neuroinflammatory disorders"</h2>
+
+  <!-- Question 1 -->
+  <p>What cautions are listed in the BNF for mycophenolate?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="1"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Active serious GI disease, children, elderly, risk of hypogammaglobulinaemia or bronchiectasis when used in combination with other immunosuppresants', '1')">
+   Click for answer</button>
+  <hr>
+
+
+  <table id="tab1">
+  <col>
+  <col>
+  <col class=ans>
+  <tr>
+    <th>Medication</th>
+    <th>Mechanism</th>
+    <th class=ans>Answer</th>
+  </tr>
+  <tr>
+    <td>Mycophenolate</td>
+    <td><input type="text"></td>
+    <td>Inosine Monophasphate Dehydrogenase inhibitor</td>
+  </tr>
+  </table>
+  <input id="btnHide" type="button" value="Hide answers"/>
+
+</div>
+ 
+
+
+
+</body>
+
+</html>

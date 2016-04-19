@@ -37,6 +37,8 @@ p.nav {
 	font-weight: bold;
 }
 
+col.ans { visibility: visible}
+
 #header {
 	background-color:#729f98;
 	text-align:center;
