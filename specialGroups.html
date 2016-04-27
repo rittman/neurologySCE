@@ -2,13 +2,13 @@
 <html lang="en-UK">
 <head>
 <meta charset="UTF-8">
-    <title>SCE Neurology questions</title>
-    <link rel="stylesheet" href="styles.css">
+  <title>Special groups</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 <div id=header>
-  <h1>SCE questions</h1>
+  <h1>Special groups</h1>
 </div>
 
 <div id=nav>
@@ -43,16 +43,37 @@
 </div>
 
 <div id="section">
-  <p> These questions are designed to cover bits of knowledge in preparation for the UK neurology SCE exam. I have tried not to include questions to which I already know the answer to concentrate on missing bits of my knowledge. They therefore reflect my own areas of weakness (eg peripheral nerve and stroke).</p></p>
+  <h2>Special patient groups</h2>
+  <h3>Pregnancy</h3>
+  <!-- Question 1 -->
+  <p>What is the cut-off blood pressure for the definition of pre-eclampsia?</p>
 
-  <p>There are no marks. Just type an answer, then press the button to see if you're correct. Refreshing the page will remove all your current answers so you can start again.</p>
+  <textarea style="height:40px; width:400px;"></textarea><br>
 
-  <p>This website is entirely written by me, partly as an exercise in HTML5. At some point I'll have a bash at a form to submit questions. The code is at <a href=https://github.com/rittman/neurologySCE.git target="github">my github page</a>. Please feel free to visit and contribute.</p>
+  <p id="1"></p>
 
-  <p>Select sections from the list on the left.</p>
+  <button type="button"
+   onclick="changeAnswer('140/90', '1')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 2 -->
+  <p>What are the typical pathological findings in the brain of eclampsia at post-mortem?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="2"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Fibrinoid necrosis of vessels, thrombosed pre-capillaries, perivacular ring haemorrhages.<br>Subarachnoid, intraventricular and intracerebral haemorrhages.', '2')">
+   Click for answer</button>
+  <hr>
+
+
+
+
 
 </div>
-
 </body>
-
 </html>
+
