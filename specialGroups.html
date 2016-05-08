@@ -12,13 +12,15 @@
 </div>
 
 <div id=nav>
+  <p class="nav"><a href="index.html" class="nav">Home</a><p>
+
   <p class="nav"><a href="cerebrovascular.html" class="nav">Cerebrovascular</a><p>
 
   <p class="nav"><a href="epilepsyConsciousness.html" class="nav">Disorders of consciousness and epilepsy</a></p>
 
   <p class="nav"><a href="cnVision.html" class="nav">Disorders of the cranial nerves and visual system </a><p>
 
-  <p class="nav"><a href="#" class="nav">Disorders of the peripheral nervous system and muscle </a><p>
+  <p class="nav"><a href="pnmuscle.html" class="nav">Disorders of the peripheral nervous system and muscle </a><p>
 
   <p class="nav"><a href="#" class="nav">Disorders of the spinal cord and motor neurone disease </a><p>
 
@@ -45,6 +47,20 @@
 <div id="section">
   <h2>Special patient groups</h2>
   <h3>Pregnancy</h3>
+
+   <script>
+   function changeAnswer(theAnswer, answerID) {
+      var ans = document.getElementById(answerID).innerHTML;
+      if(ans.trim().length==0){
+         ans = theAnswer;
+      } else {
+         ans = "";
+      }
+
+      document.getElementById(answerID).innerHTML = ans;
+   }
+   </script>
+
   <!-- Question 1 -->
   <p>What is the cut-off blood pressure for the definition of pre-eclampsia?</p>
 
@@ -69,7 +85,77 @@
    Click for answer</button>
   <hr>
 
+  <!-- Question 3 -->
+  <p>What is the risk of rupture for an unruptured AVM during pregnancy?</p>
 
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="3"></p>
+
+  <button type="button"
+   onclick="changeAnswer('3.5%', '3')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 4 -->
+  <p>What is the best treatment for chorea during pregnancy and why?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="4"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Haloperidol, since it offers the best balance between efficacy, teratogenicity and risk of tardive dyskinesia.', '4')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 5 -->
+  <p>What is the best treatment for restless legs associated with pregnancy and why?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="5"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Low dose levodopa/carbidopa since it is probably the least teratogenic option.', '5')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 6 -->
+  <p>What ar ethe sie effects of aspirin during pregnancy?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="6"></p>
+
+  <button type="button"
+   onclick="changeAnswer('Delay the onset of labour, increase intrapartum blood loss, impair neonatal haemostasis, and cause premature closure of the ductus arteriosus.', '6')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 7 -->
+  <p>What precautions should be taken for pregnant women on enzyme-inducing drugs?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="7"></p>
+
+  <button type="button"
+   onclick="changeAnswer('20mg oral vitamin K for a week prior to delivery', '7')">
+   Click for answer</button>
+  <hr>
+
+  <!-- Question 8 -->
+  <p>What advice should be given to pregnancy women with myasthenia gravis?</p>
+
+  <textarea style="height:40px; width:400px;"></textarea><br>
+
+  <p id="8"></p>
+
+  <button type="button"
+   onclick="changeAnswer('The uterus is unaffected, so labour can proceed as normal<b>Forceps may be required because of striatal muscle weakness<b>Magnesium sulphage and neuromuscular blocking agents should be avoided<b>20% of babies will have neonatal myasthenia', '8')">
+   Click for answer</button>
+  <hr>
 
 
 
