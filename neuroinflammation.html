@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Neuroinflammatory disorders</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/jquery.dataTables.min.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
 
   <p class="nav"><a href="genesEndocrineToxic.html" class="nav">Neurogenetics, neuroendocrinology, neurotoxicology,</a><p>
 
-  <p class="nav"><a href="#" class="nav">neurourology, neuro-otology</a><p>
+  <p class="nav"><a href="urooto.html" class="nav">neurourology, neuro-otology</a><p>
 
   <p class="nav"><a href="neuroinflammation.html" class="nav">Neuro-inflammatory disorders </a><p>
 
@@ -80,29 +81,59 @@
    Click for answer</button>
   <hr>
 
+  <div>
+    Toggle answers:
+    <a class="toggle-vis" data-column="0">Medicine</a>
+    -
+    <a class="toggle-vis" data-column="1">Mechanism</a>
+    -
+    <a class="toggle-vis" data-column="2">Answers</a>
+  </div>
 
-  <table id="tab1">
-  <col>
-  <col>
-  <col class=ans>
-  <tr>
-    <th>Medication</th>
-    <th>Mechanism</th>
-    <th class=ans>Answer</th>
-  </tr>
-  <tr>
-    <td>Mycophenolate</td>
-    <td><input type="text"></td>
-    <td>Inosine Monophasphate Dehydrogenase inhibitor</td>
-  </tr>
-  </table>
-  <input id="btnHide" type="button" value="Hide answers"/>
+  <div id="example_wrapper" class="dataTables_wrapper">
+    <div class="dataTables_scroll">
+      <div class="dataTables_scrollHead" style="overflow: hidden; position:relative; border 0px none; width:100%;">
+        <div class="dataTables_scrollHeadInner">
+          <table class="display dataTable" role="grid" cellspacing="0">
+            <thead>
+              <tr role="row"> 
+               <th class="sorting" aria-controls="example">Medication</th>
+               <th class="sorting" aria-controls="example">Mechanism</th>
+               <th class="sorting" aria-controls="example">Answer</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    <div class="dataTables_scrollBody">
+      <table id="example" class="display dataTable" aria-describedby="example_info" role="grid" cellspacing="0" width="100%">
+        <thead>
+          <tr role="row">
+            <th class="sorting" aria-label="Medication" colspan="1" rowspan="1" aria-controls="example">
+              <div class="dataTables_sizing">Medication</div>
+            </th>
+            <th class="sorting" aria-label="Mechanism" colspan="1" rowspan="1" aria-controls="example">
+              <div class="dataTables_sizing">Mechanism</div>
+            </th>
+            <th class="sorting" aria-label="Answer" colspan="1" rowspan="1" aria-controls="example">
+              <div class="dataTables_sizing">Answer</div>
+            </th>
+          </tr>
+        </thead>
+        <tfoot></tfoot>
+        <tbody>
+           <tr class="odd" role="row">
+            <td>Mycophenolate</td>
+            <td><input type="text"></td>
+            <td>Inosine Monophasphate Dehydrogenase inhibitor</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+   </div>
+ </div>
 
 </div>
- 
-
-
-
 </body>
 
 </html>
